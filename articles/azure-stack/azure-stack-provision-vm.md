@@ -25,12 +25,15 @@ As an administrator, you can create virtual machines to evaluate resources befor
 
    ![](media/azure-stack-provision-vm/image01.png)
 2. In the **Basics** blade, type a **Name**, **User name**, and **Password**. For **VM disk type**, choose **HDD**. Choose a **Subscription**. Create a **Resource group**, or select an existing one, and then click **OK**.  
-3. In the **Choose a size** blade, click **A1 Basic**, and then click **Select**.  
-4. In the **Settings** blade, click **Virtual network**. In the **Choose virtual network** blade, click **Create new**. In the **Create virtual network** blade, accept all the defaults, and click **OK**. In the **Settings** blade, click **OK**.
+3. In the **Choose a size** blade, click **A1 Basic**, and then click **Select**.
+
+4. In the **Settings** blade, click the **Storage account** blade.  In the **Choose Storage Account** blade, click **Create New**.  Although a Storage Account is created automatically when deploying the VM, this will give you the option to view the new Storage Accounts properties and change them as required.
+
+5. Still within the **Settings** blade, click **Virtual network**. In the **Choose virtual network** blade, click **Create new**. In the **Create virtual network** blade, accept all the defaults, and click **OK**. In the **Settings** blade, click **OK**.
 
    ![](media/azure-stack-provision-vm/image04.png)
-5. In the **Summary** blade, click **OK** to create the virtual machine.  
-6. To see your new virtual machine, click **All resources**, then search for the virtual machine and click its name.
+6. In the **Summary** blade, click **OK** to create the virtual machine.  
+7. To see your new virtual machine, click **All resources**, then search for the virtual machine and click its name.
 
     ![](media/azure-stack-provision-vm/image06.png)
 
