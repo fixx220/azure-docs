@@ -96,7 +96,10 @@ The following steps guide you through the installation stages:
 3.	On the desktop of this VM, double-click the **Web Cloud Management Console**.
 ![App Service on Azure Stack Technical Preview 2 Management Console][9]
 4.	Navigate to **Managed Servers**.
-5.	When all the machines are **Ready**, proceed to the next step. 
+5.	When all the machines are **Ready**, proceed to the next step.
+
+NOTE:  Depending on your hardware, step 5 may take a while.  You will likely see Web Worker and Publisher servers complete last showing a status of or "Recycle Role" and "AutoRepair" respectively. 
+
 ![App Service on Azure Stack Technical Preview 2 Managed Servers Status][10]
  
 ## Create DNS records for the Management Server and Front-End load balancers
